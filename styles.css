@@ -55,3 +55,25 @@
   .quote-intro h1{font-size:clamp(38px,10vw,44px)}
   .quote-card form>label,.quote-card input,.quote-card select{font-size:13px}
 }
+
+/* Mais destaque e legibilidade nas informações das unidades */
+.location-tag{font-size:11px}
+.location-card h3{font-size:20px}
+.location-card p{font-size:13px;line-height:1.75}
+.location-card>small{font-size:10px}
+.location-actions a{font-size:11px}
+.rating-copy strong{font-size:11px}
+.rating-copy small{font-size:9px}
+.google-rating>a{font-size:9px}
+.google-quote{font-size:11px;line-height:1.65}
+.pet-contact strong{font-size:12px}
+.pet-contact small,.pet-contact>a{font-size:10px}
+@media(max-width:680px){
+  .location-tag{font-size:10px}
+  .location-card h3{font-size:16px}
+  .location-card p{font-size:13px}
+  .location-card>small{font-size:10px}
+  .location-actions a{font-size:11px}
+  .rating-copy small,.google-rating>a{font-size:9px}
+  .google-quote{font-size:11px}
+}
