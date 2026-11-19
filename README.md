@@ -18,9 +18,9 @@ Os links com `data-store-link` recebem seu destino de `STORE_URL` no início de 
 
 ## Vídeo de fundo
 
-O vídeo enviado está em `assets/formula-exata-background.mp4` e toca sem áudio em repetição contínua nas páginas inicial e de orçamento. `effects-3d.css` aplica uma camada clara rosada e filtros suaves para harmonizar o vídeo com a identidade visual do site.
+O vídeo enviado está em `assets/formula-exata-background.mp4` e toca sem áudio em repetição contínua somente na página inicial. As páginas de orçamento, contato e soluções usam fundos em gradientes rosados, sem vídeo, para manter o conteúdo leve e legível.
 
-`background-video.js` centraliza a reprodução nas páginas do site. Além do loop nativo, retoma o vídeo ao voltar para a aba, durante a rolagem se o navegador o tiver pausado, e recupera travamentos longos.
+`background-video.js` controla a reprodução na página inicial. Além do loop nativo, retoma o vídeo ao voltar para a aba, durante a rolagem se o navegador o tiver pausado, e recupera travamentos longos.
 
 ## Conteúdo para revisar antes da publicação
 
