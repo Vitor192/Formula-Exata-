@@ -77,3 +77,44 @@
   .rating-copy small,.google-rating>a{font-size:9px}
   .google-quote{font-size:11px}
 }
+
+/* Tipografia das soluções, orçamento e contato alinhada à página principal */
+.solution-card h3{font-size:19px}
+.solution-card p{font-size:14px;line-height:1.75}
+.card-number{font-size:10px;letter-spacing:1px}
+.quote-intro h1,.solution-detail-copy h1{font-size:clamp(44px,4.7vw,58px);line-height:1.12}
+.quote-intro>p,.solution-intro{font-size:16px;line-height:1.8}
+.quote-assurance strong,.solution-trust strong{font-size:14px}
+.quote-assurance small,.solution-trust small{font-size:13px;line-height:1.65}
+.quote-back,.quote-home-link,.solution-breadcrumb,.solution-back-link,.solution-bottom-back{font-size:13px}
+.quote-card h2,.solution-detail-card h2{font-size:22px}
+.quote-card-head p{font-size:13px}
+.quote-card form>label,.solution-detail-card label{font-size:14px}
+.quote-card input,.quote-card select,.contact-card textarea,.solution-detail-card select{font-size:14px}
+.quote-privacy,.quote-terms,.solution-privacy{font-size:12px;line-height:1.65}
+.quote-submit,.solution-quote-button{font-size:14px;min-height:50px}
+.solution-detail-card li{font-size:14px;line-height:1.65}
+.solution-how summary{font-size:14px}
+.solution-how p{font-size:13px;line-height:1.7}
+@media(max-width:900px){
+  .quote-intro h1,.solution-detail-copy h1{font-size:clamp(42px,7vw,52px)}
+  .quote-intro>p,.solution-intro{font-size:15px}
+}
+@media(max-width:680px){
+  .solution-card h3{font-size:16px}
+  .solution-card p{font-size:13px}
+  .card-number{font-size:9px}
+  .quote-intro h1,.solution-detail-copy h1{font-size:clamp(39px,10vw,46px)}
+  .quote-intro>p,.solution-intro{font-size:15px}
+  .quote-assurance strong,.solution-trust strong{font-size:13px}
+  .quote-assurance small,.solution-trust small{font-size:12px}
+  .quote-back,.quote-home-link,.solution-breadcrumb,.solution-back-link,.solution-bottom-back{font-size:12px}
+  .quote-card h2,.solution-detail-card h2{font-size:20px}
+  .quote-card-head p{font-size:12px}
+  .quote-card form>label,.solution-detail-card label{font-size:13px}
+  .quote-card input,.quote-card select,.contact-card textarea,.solution-detail-card select{font-size:14px}
+  .quote-privacy,.quote-terms,.solution-privacy{font-size:11px}
+  .quote-submit,.solution-quote-button{font-size:13px}
+  .solution-detail-card li,.solution-how summary{font-size:13px}
+  .solution-how p{font-size:12px}
+}
