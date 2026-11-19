@@ -16,3 +16,42 @@
 /* Página interna de orçamento */
 .quote-body{min-height:100vh;background:linear-gradient(135deg,#fffaf7 0%,#fffaf7 47%,#f8e7e9 100%);display:flex;flex-direction:column}.quote-header{position:relative}.quote-back{font-size:11px;font-weight:700;color:#785e64}.quote-back span{font-size:17px;color:#b16476;margin-right:8px;vertical-align:-1px}.quote-back:hover,.quote-home-link:hover{color:#a14d63}.quote-main{width:min(100% - 44px,960px);margin:0 auto;padding:62px 0 46px;display:grid;grid-template-columns:1fr 430px;align-items:center;column-gap:90px;row-gap:25px;flex:1}.quote-intro{max-width:420px;position:relative}.quote-intro:before{content:"✳";position:absolute;top:-89px;left:-24px;font-size:42px;color:#e6adba;opacity:.7}.quote-intro h1{font:600 clamp(38px,4vw,51px)/1.12 var(--display);letter-spacing:-2.5px;color:var(--plum);margin:14px 0}.quote-intro h1 em{color:#b45d72}.quote-intro>p{font-size:13px;line-height:1.8;color:#786d6f;max-width:385px;margin:0}.quote-assurance{display:flex;align-items:center;gap:12px;margin-top:30px;padding:15px;background:#ffffffa6;border:1px solid #f0e5e4;border-radius:5px;max-width:350px}.quote-assurance>span{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:#f8e2e6;color:#a85c70;font-size:17px}.quote-assurance strong,.quote-assurance small{display:block}.quote-assurance strong{font-size:10px;color:var(--plum)}.quote-assurance small{font-size:9px;color:#8d8183;margin-top:4px}.quote-card{background:#fffdfb;border:1px solid #efe5e3;border-radius:7px;padding:27px 29px;box-shadow:0 17px 55px #4a343b10}.quote-card-head{display:flex;align-items:center;gap:12px;margin-bottom:22px}.quote-step{width:30px;height:30px;display:grid;place-items:center;border-radius:50%;background:var(--pink2);color:#925568;font-size:12px;font-weight:700}.quote-card h2{font:700 17px var(--display);letter-spacing:-.4px;margin:0;color:var(--plum)}.quote-card-head p{margin:4px 0 0;font-size:9px;color:#95888a}.quote-card form>label{display:block;font-size:10px;font-weight:700;color:#56484c;margin:14px 0 7px}.quote-card label>span:not(.required){font-weight:400;color:#97898b}.quote-card .required{color:#b45268}.quote-card input,.quote-card select{width:100%;min-height:43px;padding:0 12px;background:#fff;border:1px solid #e9dedd;border-radius:4px;color:#504447;font:10px var(--sans);outline:none}.quote-card input::placeholder,.quote-card select:invalid{color:#a89c9e}.quote-card input:focus,.quote-card select:focus{border-color:#ca8795;box-shadow:0 0 0 3px #f6e5e8}.quote-privacy{font-size:8px;line-height:1.6;color:#897d7f;background:#fbf3f2;padding:10px 11px;border-radius:3px;margin:15px 0}.quote-submit{width:100%;border:0;cursor:pointer;justify-content:space-between;padding:0 15px}.quote-submit span{color:var(--pink);font-size:15px}.quote-terms{text-align:center;font-size:8px;color:#9a8f91;margin:10px 0 0}.quote-home-link{grid-column:2;justify-self:center;font-size:9px;color:#826d72;font-weight:600}.quote-footer{padding:18px max(calc((100vw - 960px)/2),22px);border-top:1px solid #eadede;background:#fffaf8;display:flex;align-items:center;gap:16px;color:#897d80}.quote-footer>a{font:700 11px var(--display);color:var(--plum)}.quote-footer>span{font-size:8px}.quote-footer>small{margin-left:auto;font-size:8px}
 @media(max-width:760px){.quote-main{grid-template-columns:1fr;max-width:480px;padding:39px 0 32px;row-gap:21px}.quote-intro{max-width:none}.quote-intro:before{top:-36px;left:auto;right:6px;font-size:29px}.quote-intro h1{font-size:38px;max-width:400px;margin:10px 0}.quote-intro>p{font-size:11px}.quote-assurance{margin-top:17px;padding:11px}.quote-card{padding:21px 19px}.quote-home-link{grid-column:1}.quote-footer{padding:16px 21px;flex-wrap:wrap;gap:8px 12px}.quote-footer>small{width:100%;margin:4px 0 0}.quote-back{font-size:10px}}
+
+/* Tipografia ampliada para leitura mais confortável */
+.announcement{font-size:11px}
+.main-nav{font-size:13px}
+.hero-kicker,.eyebrow{font-size:10px}
+.hero h1{font-size:clamp(48px,5.2vw,68px)}
+.hero-description,.story-copy p,.section-heading>p,.store-copy p,.closing-cta p,.solution-intro,.quote-intro>p{font-size:14px}
+.button{font-size:12px}
+.hero-proof strong,.hero-proof small,.story-facts small,.floating-note strong,.floating-note small,.card-number,.solution-card p,.step p,.location-card p,.pet-contact strong,.pet-contact small{font-size:11px}
+.story-copy h2,.section-heading h2{font-size:40px}
+.solution-card h3{font-size:17px}
+.step h3{font-size:15px}
+.location-card h3{font-size:19px}
+.store-copy h2{font-size:36px}
+.closing-cta h2{font-size:38px}
+.location-tag,.location-actions a,.pet-contact>a,.footer-links{font-size:10px}
+.solution-breadcrumb,.solution-back-link,.solution-bottom-back,.quote-back,.quote-home-link{font-size:11px}
+.solution-trust strong,.solution-detail-card label,.solution-how summary{font-size:11px}
+.solution-trust small,.solution-detail-card li,.solution-how p{font-size:10px}
+.quote-card h2{font-size:19px}
+.quote-card-head p,.quote-card form>label,.quote-card input,.quote-card select{font-size:12px}
+.quote-privacy,.quote-terms,.quote-footer>span,.quote-footer>small{font-size:10px}
+.google-quote{font-size:10px}
+@media(max-width:950px){.hero h1{font-size:clamp(46px,6vw,58px)}.story-copy h2,.section-heading h2{font-size:36px}}
+@media(max-width:680px){
+  .announcement{font-size:9px}
+  .hero h1{font-size:clamp(43px,11vw,51px)}
+  .hero-description,.story-copy p,.section-heading>p,.store-copy p,.closing-cta p,.solution-intro,.quote-intro>p{font-size:13px}
+  .button{font-size:11px}
+  .story-copy h2,.section-heading h2{font-size:33px}
+  .solution-card h3{font-size:15px}
+  .solution-card p,.step p,.location-card p{font-size:12px}
+  .step h3,.location-card h3{font-size:15px}
+  .store-copy h2{font-size:29px}
+  .closing-cta h2{font-size:33px}
+  .main-nav>a:not(.nav-store){font-size:14px}
+  .quote-intro h1{font-size:clamp(38px,10vw,44px)}
+  .quote-card form>label,.quote-card input,.quote-card select{font-size:13px}
+}
