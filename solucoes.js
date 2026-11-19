@@ -58,12 +58,3 @@ function updateQuoteLink() {
 }
 unitSelect.addEventListener("change", updateQuoteLink);
 updateQuoteLink();
-
-const backgroundVideo = document.querySelector(".site-video-backdrop video");
-if (backgroundVideo) {
-  document.addEventListener("visibilitychange", () => {
-    if (document.visibilityState === "visible" && backgroundVideo.paused) {
-      backgroundVideo.play().catch(() => {});
-    }
-  });
-}

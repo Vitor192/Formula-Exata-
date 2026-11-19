@@ -61,20 +61,6 @@ document.querySelectorAll("[data-tilt]").forEach((element) => {
   });
 });
 
-const backgroundVideo = document.querySelector(".site-video-backdrop video");
-if (backgroundVideo) {
-  const resumeBackgroundVideo = () => {
-    if (document.visibilityState === "visible" && backgroundVideo.paused) {
-      backgroundVideo.play().catch(() => {});
-    }
-  };
-  document.addEventListener("visibilitychange", resumeBackgroundVideo);
-  backgroundVideo.addEventListener("ended", () => {
-    backgroundVideo.currentTime = 0;
-    resumeBackgroundVideo();
-  });
-}
-
 const scene = document.querySelector(".hero-art");
 const sceneControl = document.querySelector(".scene-control");
 sceneControl.addEventListener("click", () => {

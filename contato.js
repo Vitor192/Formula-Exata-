@@ -7,15 +7,6 @@ const CONTACT_PHONES = {
 
 document.getElementById("year").textContent = new Date().getFullYear();
 
-const backgroundVideo = document.querySelector(".site-video-backdrop video");
-if (backgroundVideo) {
-  document.addEventListener("visibilitychange", () => {
-    if (document.visibilityState === "visible" && backgroundVideo.paused) {
-      backgroundVideo.play().catch(() => {});
-    }
-  });
-}
-
 document.getElementById("contact-form").addEventListener("submit", (event) => {
   event.preventDefault();
   const form = new FormData(event.currentTarget);
